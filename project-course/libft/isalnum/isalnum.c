@@ -6,7 +6,7 @@
 /*   By: abarreto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 20:56:24 by abarreto          #+#    #+#             */
-/*   Updated: 2023/10/13 21:08:15 by abarreto         ###   ########.fr       */
+/*   Updated: 2023/11/04 14:29:58 by abarreto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	myisalnum(char ch)
 		return (0);
 	}
 }
-
+/*
 int	main(void)
 {
 	char	ch;
@@ -37,4 +37,4 @@ int	main(void)
 		printf("la tua funzione ritorna %d\n ", myisalnum(ch));
 	}
 	return (0);
-}
+}*/

@@ -1,11 +1,24 @@
-#include<unistd.h> 
-#include<stdio.h>
-#include<ctype.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   isascii.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abarreto <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/11/04 14:34:29 by abarreto          #+#    #+#             */
+/*   Updated: 2023/11/04 14:42:03 by abarreto         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-int myisascii(int ch){
-     return (ch >= 0 && ch <= 127);
+#include <unistd.h> 
+#include <stdio.h>
+#include <ctype.h>
+
+int	myisascii(int ch)
+{
+	return (ch >= 0 && ch <= 127);
 }
-
+/*
 int    main(void) 
 { 
      int ch;
@@ -15,4 +28,4 @@ int    main(void)
           printf("la tua funzione ritorna %d\n ", myisascii(ch)); 
   
      return(0); 
-} 
+}*/
